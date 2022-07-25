@@ -1,0 +1,42 @@
+{
+  "name": "foodadvisor-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application.",
+  "main": "./server.js",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "dependencies": {
+    "knex": "0.16.3",
+    "sqlite3": "5.0.2",
+    "strapi": "3.6.10",
+    "strapi-admin": "3.6.10",
+    "strapi-connector-bookshelf": "3.6.10",
+    "strapi-plugin-content-manager": "3.6.10",
+    "strapi-plugin-content-type-builder": "3.6.10",
+    "strapi-plugin-email": "3.6.10",
+    "strapi-plugin-i18n": "^3.6.10",
+    "strapi-plugin-upload": "3.6.10",
+    "strapi-plugin-users-permissions": "3.6.10",
+    "strapi-utils": "3.6.10",
+    "uuid-v4": "^0.1.0"
+  },
+  "strapi": {
+    "uuid": "FOODADVISOR-LOCAL-8822bd66-77b5-4fbc-9adf-3d9d8a215b53"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "license": "MIT"
+}
